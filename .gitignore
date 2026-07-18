@@ -1,0 +1,11 @@
+# This public repo intentionally only tracks the firmware/ and docs/
+# folders (plus this README). backend/ and dashboard/ hold the rest of the
+# project (Django backend, RL trainer, Next.js dashboard) and are kept out
+# of this repo on purpose -- excluded here as a safety net so a future
+# `git add .` can't accidentally pull them in.
+/backend/
+/dashboard/
+
+# OS/editor cruft, in case anything outside firmware/docs ever gets added
+.DS_Store
+Thumbs.db
