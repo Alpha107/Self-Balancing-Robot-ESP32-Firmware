@@ -1,0 +1,6 @@
+run,description,mode,Kp,Ki,Kd,Kv,Kx,verdict,max_tilt_deg,rms_tilt_deg,settle_s,push_recovery_s,final_drift_cm,max_drift_cm,peak_pwm,pwm_saturated_pct,reason
+cascaded_default,"Angle PID + speed/position loop (tuned)",2,120.00,5.00,1.50,10.00,3.00,PASS,4.827,1.451,0.030,3.325,-1.67,32.45,255,0.20,"balanced and recovered from a 1.5 N push"
+angle_only_tuned,"Angle PID only, same gains",1,120.00,5.00,1.50,10.00,3.00,FAIL,85.000,36.645,0.050,NaN,50.50,50.50,255,8.10,"fell over at 3.59 s"
+firmware_config_defaults,"Firmware Config.h gains (Kp 18, Ki 140, Kd 0.6)",1,18.00,140.00,0.60,10.00,3.00,FAIL,85.000,37.141,1.945,NaN,18.53,18.53,255,6.02,"fell over at 3.54 s"
+imu_mount_offset_2deg,"Cascaded, IMU mounted 2 deg off level",2,120.00,5.00,1.50,10.00,3.00,WARN,4.827,1.547,2.690,3.605,-65.31,65.31,255,0.30,"stayed up but drifted 65 cm (no position hold)"
+payload_200g,"Cascaded, 200 g payload on top plate",2,120.00,5.00,1.50,10.00,3.00,PASS,4.901,1.133,0.085,1.750,-1.11,22.13,255,0.30,"balanced and recovered from a 1.5 N push"

@@ -1,0 +1,13 @@
+push_N,angle_only_max_tilt_deg,cascaded_max_tilt_deg,angle_only_recovery_s,cascaded_recovery_s
+0.5,NaN,1.570,NaN,1.665
+1.0,NaN,2.981,NaN,1.855
+1.5,NaN,4.290,NaN,2.885
+2.0,NaN,5.693,NaN,3.540
+2.5,NaN,NaN,NaN,NaN
+3.0,NaN,NaN,NaN,NaN
+3.5,NaN,NaN,NaN,NaN
+4.0,NaN,NaN,NaN,NaN
+4.5,NaN,NaN,NaN,NaN
+5.0,NaN,NaN,NaN,NaN
+5.5,NaN,NaN,NaN,NaN
+6.0,NaN,NaN,NaN,NaN
